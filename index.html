@@ -3,82 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Книга Рецептов</title>
+  <title>Классический борщ</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
       margin: 0;
-      background: #f8f8f8;
-      color: #333;
+      padding: 0;
     }
     header {
-      background: #ff7043;
+      background-color: #ff7043;
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 20px;
     }
     .container {
-      width: 90%;
-      max-width: 1000px;
+      max-width: 800px;
       margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .recipe-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-      overflow: hidden;
-    }
-    .recipe-card img {
-      width: 100%;
-      display: block;
-    }
-    .recipe-content {
-      padding: 15px;
-    }
-    .recipe-content h2 {
+    h1 {
       margin-top: 0;
+      color: #333;
     }
-    .btn {
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .btn-back {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
+      margin-top: 20px;
+      padding: 10px 16px;
       background: #ff7043;
       color: white;
-      border-radius: 5px;
       text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
     }
-    .btn:hover {
-      background: #e64a19;
+    .btn-back:hover {
+      background: #e85c32;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Классический борщ</h1>
+  </header>
 
-<header>
-  <h1>Моя книга рецептов</h1>
-  <p>Простые и вкусные блюда 🍲</p>
-</header>
+  <div class="container">
+    <h2>Ингредиенты:</h2>
+    <ul>
+      <li>Свекла — 2 шт.</li>
+      <li>Капуста — 300 г</li>
+      <li>Картофель — 3 шт.</li>
+      <li>Морковь — 1 шт.</li>
+      <li>Лук репчатый — 1 шт.</li>
+      <li>Томатная паста — 2 ст. ложки</li>
+      <li>Мясо (говядина или свинина) — 400 г</li>
+      <li>Чеснок, зелень, соль, перец — по вкусу</li>
+    </ul>
 
-<div class="container">
-  <div class="recipe-card">
-    <img src="https://via.placeholder.com/800x400" alt="Борщ">
-    <div class="recipe-content">
-      <h2>Классический борщ</h2>
-      <p>Сытный и ароматный суп со свеклой и капустой.</p>
-      <a href="#" class="btn">Смотреть рецепт</a>
-    </div>
+    <h2>Приготовление:</h2>
+    <ol>
+      <li>Сварите мясо до готовности, затем достаньте и нарежьте.</li>
+      <li>В бульон добавьте нарезанный картофель и капусту.</li>
+      <li>Обжарьте лук, морковь и свеклу с томатной пастой, добавьте в суп.</li>
+      <li>Варите 10–15 минут до готовности овощей.</li>
+      <li>В конце добавьте чеснок, зелень, соль и перец.</li>
+      <li>Дайте борщу настояться 15–20 минут.</li>
+    </ol>
+
+    <a href="index.html" class="btn-back">⬅ Вернуться на главную</a>
   </div>
-
-  <div class="recipe-card">
-    <img src="https://via.placeholder.com/800x400" alt="Оливье">
-    <div class="recipe-content">
-      <h2>Салат Оливье</h2>
-      <p>Любимый салат на любой праздник.</p>
-      <a href="#" class="btn">Смотреть рецепт</a>
-    </div>
-  </div>
-</div>
-
 </body>
 </html>
