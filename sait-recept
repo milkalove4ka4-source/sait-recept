@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книга Рецептов</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #ff7043;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    .recipe-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+    .recipe-card img {
+      width: 100%;
+      display: block;
+    }
+    .recipe-content {
+      padding: 15px;
+    }
+    .recipe-content h2 {
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #ff7043;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #e64a19;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Моя книга рецептов</h1>
+  <p>Простые и вкусные блюда 🍲</p>
+</header>
+
+<div class="container">
+  <div class="recipe-card">
+    <img src="https://via.placeholder.com/800x400" alt="Борщ">
+    <div class="recipe-content">
+      <h2>Классический борщ</h2>
+      <p>Сытный и ароматный суп со свеклой и капустой.</p>
+      <a href="#" class="btn">Смотреть рецепт</a>
+    </div>
+  </div>
+
+  <div class="recipe-card">
+    <img src="https://via.placeholder.com/800x400" alt="Оливье">
+    <div class="recipe-content">
+      <h2>Салат Оливье</h2>
+      <p>Любимый салат на любой праздник.</p>
+      <a href="#" class="btn">Смотреть рецепт</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
